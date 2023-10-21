@@ -1,0 +1,109 @@
+.contact-btn-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+    position: relative;
+  }
+  
+  .contact-btn-container .blank {
+    all: unset;
+    align-items: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    overflow: hidden;
+    padding: 8px 16px;
+    position: relative;
+    background-color: white;
+    color: white;
+  }
+  
+  .contact-btn-container .blank-text {
+    /* color: var(--lighttrunks); */
+    font-family: "AvertaStd-Semibold-☞", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1.5px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .contact-btn-container .contact-button {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .contact-btn-container .back {
+    all: unset;
+    align-items: center;
+    border: 1px solid;
+    border-color: var(--lighttrunks);
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    overflow: hidden;
+    padding: 8px 16px;
+    position: relative;
+    cursor: pointer;
+
+  }
+  
+  .contact-btn-container .back-button {
+    all: unset;
+    box-sizing: border-box;
+    color: var(--lightbulma);
+    font-family: "Figtree", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .contact-btn-container .done {
+    all: unset;
+    align-items: center;
+    background-color: #3f84f8;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    overflow: hidden;
+    padding: 8px 16px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .contact-btn-container .done-button {
+    color: var(--lightgoten);
+    font-family: "Figtree", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  .btn-close{
+    cursor: pointer;
+  }

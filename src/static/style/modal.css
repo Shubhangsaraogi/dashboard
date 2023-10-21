@@ -1,0 +1,404 @@
+:root {
+  --lightbeerusbeerus: rgba(242, 242, 242, 1);
+  --lightbulma: rgba(0, 0, 0, 1);
+  --lightgohan: rgba(255, 255, 255, 1);
+  --lightgoten: rgba(255, 255, 255, 1);
+  --lighthover: rgba(0, 0, 0, 0.08);
+  --lighttrunks: rgba(153, 156, 160, 1);
+}
+
+.modal-dialog {
+    background-color: var(--lightgohan);
+    border-radius: 16px;
+    height: 553px;
+    position: relative;
+    width: 544px;
+    max-width: 544px;
+  }
+.modal-footer{
+    border: none;
+}
+  .modal-dialog .overlap-group {
+    height: 439px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 544px;
+  }
+  
+  .modal-dialog .header-module {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-between;
+    left: 0;
+    padding: 16px 0px 0px;
+    position: absolute;
+    top: 0;
+    width: 480px;
+  }
+  
+  .modal-dialog .header-holder {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    padding: 0px 24px;
+    position: relative;
+    width: 100%;
+  }
+  .btn-close{
+    background: transparent;
+    border: none;
+  }
+  .modal-dialog .title {
+    align-self: stretch;
+    color: #231f20;
+    font-family: "Figtree-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: 252px;
+  }
+  
+  .modal-dialog .img {
+    flex: 0 0 auto;
+    position: relative;
+  }
+  
+  .modal-dialog .divider {
+    align-self: stretch;
+    height: 1px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+  }
+  
+  .modal-dialog .content-placeholder {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 376px;
+    left: -16px;
+    padding: 24px;
+    position: absolute;
+    top: 63px;
+    width: 544px;
+  }
+  
+  .modal-dialog .frame {
+    height: 40px;
+    position: relative;
+    width: 480px;
+  }
+  .modal-content{
+    border: none;
+    text-align: start;
+    background-color: white !important;
+  }
+ 
+  .contact{
+    width: 308px;
+    cursor: pointer;
+    text-align: end;
+  }
+
+  .toggle-bar-basic{
+    background-color: #d9d9d9 !important;
+  }
+
+  .toggle-bar-contact{
+    background-color: #3f84f8 !important;
+  }
+  .modal-dialog .input-title {
+    color: #231f20;
+    font-family: "Figtree-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    height: 24px;
+    left: 87px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .modal-dialog .text-wrapper {
+    color: #231f20;
+    font-family: "Figtree-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    height: 24px;
+    left: 343px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .modal-dialog .rectangle {
+    background-color: #3f84f8;
+    border-radius: 30px;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 37px;
+    width: 213px;
+  }
+  
+  .modal-dialog .div {
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    height: 4px;
+    left: 267px;
+    position: absolute;
+    top: 37px;
+    width: 213px;
+  }
+  
+  .modal-dialog .text-input-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .modal-dialog .text-input {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 496px;
+  }
+  
+  .modal-dialog .input-title-2 {
+    align-self: stretch;
+    color: #231f20;
+    font-family: "Figtree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    line-height: 40px;
+  }
+  
+  .modal-dialog .input-container {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--lightgohan);
+    border: 1px solid;
+    border-color: var(--lightbeerusbeerus);
+    border-radius: 8px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 12px 16px;
+    position: relative;
+    width: 80%;
+  }
+  
+  .modal-dialog .placeholder-text {
+    align-self: stretch;
+    color: var(--lighttrunks);
+    font-family: "Figtree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .modal-dialog .text-input-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .modal-dialog .input-title-3 {
+    align-self: stretch;
+    color: var(--lightbulma);
+    font-family: "Figtree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    line-height: 40px;
+  }
+  
+  .modal-dialog .chip-holder {
+    align-items: center;
+    align-self: stretch;
+    background-color: var(--lightgohan);
+    border: 1px solid;
+    border-color: var(--lightbeerusbeerus);
+    border-radius: 8px;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 12px;
+    position: relative;
+    width: 80%;
+  }
+  
+  .modal-dialog .placeholder-text-2 {
+    color: var(--lighttrunks);
+    font-family: "Figtree-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .modal-dialog .right-container {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    position: relative;
+  }
+  
+  .modal-dialog .button-instance {
+    flex: 0 0 auto !important;
+  }
+  
+  .modal-dialog .controls {
+    height: 16px !important;
+    position: relative !important;
+    width: 16px !important;
+  }
+  
+  .modal-dialog .text-input-3 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: -24px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .modal-dialog .footer-module {
+    height: 88px;
+    left: 4px;
+    position: absolute;
+    top: 465px;
+    width: 480px;
+  }
+  
+  .modal-dialog .seperator {
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 544px;
+  }
+  
+  .modal-dialog .button-container {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    left: 0;
+    padding: 0px 24px;
+    position: absolute;
+    top: 24px;
+    width: 480px;
+  }
+  
+  .modal-dialog .button-text-wrapper {
+    all: unset;
+    align-items: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    overflow: hidden;
+    padding: 8px 16px;
+    position: relative;
+  }
+  
+  .modal-dialog .button-text {
+    color: var(--lighttrunks);
+    font-family: "AvertaStd-Semibold-☞", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1.5px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .modal-dialog .button-group {
+    all: unset;
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .modal-dialog .div-wrapper {
+    all: unset;
+    background-color: #3e84f8;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    width: 64px;
+    display: flex;
+    justify-content: center;  
+  }
+  
+  .modal-dialog .button-text-2 {
+    all: unset;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: "Figtree-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    height: 24px;
+    left: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    white-space: nowrap;
+  }
+  

@@ -1,0 +1,35 @@
+.profile{
+    flex-direction: column;
+    gap: 1rem !important;
+} 
+.info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 30px 0px;
+    padding-top: 1rem;
+    font-size: 10px;
+    font-weight: 100 !important;
+    max-width: 100%;
+}
+.profile .name{
+    left: 0px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.profile-card{
+    padding: 2rem;
+}
+.inputs input{
+    border: none;
+    outline: none;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    gap: 1rem;
+}
