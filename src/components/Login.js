@@ -49,6 +49,8 @@ const Login = () => {
                 <span className="text-wrapper-7">Register here</span>
               </p>
             </div>
+            <div className="login-header">
+
             <div id="loginDiv" className="google-sign-in">
             </div>
             <div className="apple-sign-in">
@@ -59,7 +61,9 @@ const Login = () => {
             </div>
             <div className="text-wrapper-10">Sign In</div>
             <p className="p">Sign in to your account</p>
+            </div>
           </div>
+        
         </div>
       </div>
     </div>

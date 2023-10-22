@@ -348,13 +348,20 @@
     top: 288px;
     width: 177px;
   }
+  
   @media only screen and (max-width: 800px) {
     .responsive{
         position: relative;
         left: -100%;
     }
+    .sign-in{
+      display: flex;
+    }
+    .sign-in .overlap-group {
+      width: 100%;
+    }
     .sign-in .overlap-wrapper {
-        width: 720px;
+        width: 100%;
     }
     .sign-in .text-wrapper-10 {
       color: white;
@@ -375,5 +382,98 @@
     }
     .sign-in .board {
       top: 100px;
+      left: 10%;
     }
+    .sign-in .text-wrapper {
+      width: 70%;
+    }
+    .sign-in .div-wrapper {
+      width: 70%;
+    }
+    .sign-in .login-form {
+      left: 100%;
+      margin: 0rem 1rem;
+      width: 80%;
+    }
+    .sign-in .div {
+      width: 100%;
+    }
+    .sign-in .overlap-group {
+      width: 100%;
+    }
+    .sign-in .overlap-2 {
+      width: 70%;
+    }
+    .sign-in .overlap-group-2 {
+      width: 70%;
+    }
+    .sign-in .text-wrapper-3 {
+      width: 100%;
+      margin: auto;
+      left: auto;
+    }
+    .sign-in .button-sign-in {
+      width: 100%;
+    }
+    .login-header{
+      width: 100%;
+      left: 100%;
+      position: relative;
+      margin-left: 1rem;
+    }
+    .sign-in .google-sign-in {
+      left: unset;
+    }
+    .sign-in .apple-sign-in {
+      left: 200px;
+      width: 45%;
+      max-width: 200px;
+    }
+    .sign-in .apple {
+      left: 10px;
+    }
+    .sign-in .overlap-3 {
+      width: 100%;
+      max-width: 198px;
+    }
+    .sign-in .apple-sign-in {
+      left: 200px;
+      width: 45%;
+      max-width: 200px;
+    }
+    .sign-in .p {
+      left: unset;
+    }
+    .sign-in .text-wrapper-10 {
+      left: unset;
+    }
+    .sign-in .don-t-have-an {
+      left: unset;
+      font-size: 11px;
+    }
+    .sign-in .frame img {
+      width: 30px;
+    }
+    .sign-in .frame {
+      left: 5%;
+      width: 73%;
+    }
+  }
+
+  @media only screen and (max-width: 451px) {
+    .sign-in .overlap-3 {
+      width: 90%;
+      left: -37%;
+      height: 61%;
+    }
+    .sign-in .text-wrapper-9 {
+      left: unset;
+      width: 100%;
+      top: 3px;
+    }
+    .sign-in .apple {
+      left: 4px;
+      top: 3px;
+    }
+    
   }

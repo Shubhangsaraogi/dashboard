@@ -42,17 +42,24 @@ function App() {
         // props.showAlert("Invalid Credendials","danger");
     }
 }
-  
+const [width, setWidth] = useState(window.innerWidth);
+  const getWidth=()=>{
+    setWidth(window.innerWidth);
+  }
+  console.log("width:"+width);
  window.onload= useEffect(() => {
+
+   window.addEventListener("resize", getWidth);
+    const size=width<426?'small':'medium';
     /* global google */ 
     google.accounts.id.initialize({
       client_id: process.env.REACT_APP_GOOGLE_CLIENT_ID,
       callback: handleCallback
     })
-
+    /* global google */ 
     google.accounts.id.renderButton(
       document.getElementById('loginDiv'),
-      { theme: "outline",shape:"pill",size:"medium" ,text:'Signin with Google',border:"0"}
+      { theme: "outline",shape:"pill",size:`${size}` ,text:'Signin with Google',border:"0"}
     );
   }, [])
   const [openmenu, setOpenmenu] = useState(false);
