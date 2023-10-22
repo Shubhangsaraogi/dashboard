@@ -50,7 +50,7 @@ const [width, setWidth] = useState(window.innerWidth);
  window.onload= useEffect(() => {
 
    window.addEventListener("resize", getWidth);
-    const size=width<426?'small':'medium';
+    const size=width<447?'small':'medium';
     /* global google */ 
     google.accounts.id.initialize({
       client_id: process.env.REACT_APP_GOOGLE_CLIENT_ID,

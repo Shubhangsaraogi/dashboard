@@ -451,16 +451,14 @@
       left: unset;
       font-size: 11px;
     }
-    .sign-in .frame img {
-      width: 30px;
-    }
+  
     .sign-in .frame {
       left: 5%;
       width: 73%;
     }
   }
 
-  @media only screen and (max-width: 451px) {
+  @media only screen and (max-width: 447px) {
     .sign-in .overlap-3 {
       width: 90%;
       left: -37%;
@@ -475,5 +473,11 @@
       left: 4px;
       top: 3px;
     }
-    
+    .sign-in .overlap-3 {
+      top: 30px;
+      left: unset;
+    }
+    .sign-in .apple-sign-in {
+      left: unset;
+    }
   }

@@ -50,6 +50,7 @@ const Login = () => {
               </p>
             </div>
             <div className="login-header">
+            <div className="login-auth-button">
 
             <div id="loginDiv" className="google-sign-in">
             </div>
@@ -58,6 +59,7 @@ const Login = () => {
                 <div className="text-wrapper-9">Sign in with Apple</div>
                 <img className="apple" alt="Apple" src={apple} />
               </div>
+            </div>
             </div>
             <div className="text-wrapper-10">Sign In</div>
             <p className="p">Sign in to your account</p>
