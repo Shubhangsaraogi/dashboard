@@ -474,10 +474,10 @@
       top: 3px;
     }
     .sign-in .overlap-3 {
-      top: 30px;
       left: unset;
     }
     .sign-in .apple-sign-in {
       left: unset;
+      top: 370px;
     }
   }
