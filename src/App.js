@@ -14,8 +14,8 @@ function App() {
 
     localStorage.setItem('user',response.credential);
     var userObject = jwtDecode(response.credential);
-    console.log("host uri");
-    console.log(process.env.REACT_APP_HOST_URI);
+    // console.log("host uri");
+    // console.log(process.env.REACT_APP_HOST_URI);
     const res = await fetch(`${process.env.REACT_APP_HOST_URI}/api/user`,{
         method:'POST',
         headers:{
@@ -25,11 +25,11 @@ function App() {
     });
 
     const result =await res.json();
-    console.log("result");
-    console.log(result);
+    // console.log("result");
+    // console.log(result);
 
-    console.log("res.json:");
-    console.log(res.json());
+    // console.log("res.json:");
+    // console.log(res.json());
     if(result.success)
     {
         localStorage.setItem('token',result.authToken)

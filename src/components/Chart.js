@@ -63,11 +63,11 @@ const Chart = () => {
             const dataSet1 = [];
             const dataSet2 = [];
             await fetch(url).then((data) => {
-                console.log("Api data", data)
+                // console.log("Api data", data)
                 const res = data.json();
                 return res
             }).then((res) => {
-                console.log("ressss", res)
+                console.log("api data", res)
                 for (const val of res) {
                     dataSet1.push(val.id);
                     dataSet2.push(val.postId)
@@ -88,7 +88,7 @@ const Chart = () => {
                         },
                     ],
                 })
-                console.log("arrData", dataSet1, dataSet2)
+                // console.log("arrData", dataSet1, dataSet2)
             }).catch(e => {
                 console.log("error", e)
             })
