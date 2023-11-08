@@ -208,7 +208,7 @@ a img {
         padding-left: 4rem;
     }
     .navbar{
-        width: 64rem;
+        /* width: 64rem; */
         min-width: unset;
       }
 }

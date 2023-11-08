@@ -72,6 +72,15 @@ const Dashboard = (props) => {
               <div className="overlap-group">
                 <img className="vector" alt="Vector" src={revenue_icon} />
               </div>
+              <div className="frame-5">
+            <div className="frame-4">
+              <div className="text-wrapper-8">Total Revenues</div>
+              <div className="text-wrapper-9">$2,129,430</div>
+            </div>
+            <div className="label">
+              <div className="label-text-2">+2.5%</div>
+            </div>
+          </div>
             </div>
             <div className="frame-2">
               <div className="vector-wrapper">
@@ -115,20 +124,39 @@ const Dashboard = (props) => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="frame-7">
-            <div className="frame-4">
-              <div className="text-wrapper-8">Total Revenues</div>
-              <div className="text-wrapper-9">$2,129,430</div>
-            </div>
-            <div className="label">
-              <div className="label-text-2">+2.5%</div>
-            </div>
+          
           </div>
           </div>
 
           <Chart />
         </div>
+        
+        <header className="header">
+          <div className="text-wrapper-25">Dashboard</div>
+          <div className="header-right">
+
+            <div className="search-bar">
+              <div className="overlap-7">
+                <div className="text-wrapper-26">Search...</div>
+                <div className="search-icon">
+                  <div className="overlap-group-3">
+                    <div className="ellipse-7" />
+                    <img className="line-3" alt="Line" src="https://c.animaapp.com/oPSv45bI/img/line-2.svg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <MaskGroup
+              className="rounded-full mask-group-instance"
+              maskGroup={userObject.picture}
+            /> */}
+
+            <img className="vector-5" alt="Vector" src={bell_icon} />
+          </div>
+
+        </header>
+        <div className="bottom-cards">
+
         <div className="overlap-4">
           <div className="top-products-card">
             <div className="overlap-5">
@@ -156,30 +184,6 @@ const Dashboard = (props) => {
             </div>
           </div> */}
         </div>
-        <header className="header">
-          <div className="text-wrapper-25">Dashboard</div>
-          <div className="header-right">
-
-            <div className="search-bar">
-              <div className="overlap-7">
-                <div className="text-wrapper-26">Search...</div>
-                <div className="search-icon">
-                  <div className="overlap-group-3">
-                    <div className="ellipse-7" />
-                    <img className="line-3" alt="Line" src="https://c.animaapp.com/oPSv45bI/img/line-2.svg" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <MaskGroup
-              className="rounded-full mask-group-instance"
-              maskGroup={userObject.picture}
-            /> */}
-
-            <img className="vector-5" alt="Vector" src={bell_icon} />
-          </div>
-
-        </header>
         <div className="overlap-group-wrapper">
           {!showprofile && <div className="div-3">
             <div className="frame-8" onClick={handleShow} data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -220,6 +224,8 @@ const Dashboard = (props) => {
 
 
         </div>
+        </div>
+
       </div>
 
       {

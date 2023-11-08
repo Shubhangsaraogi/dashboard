@@ -21,11 +21,11 @@ export const options = {
 
 const Piechart = () => {
   return (
-    <div>
+    <div className="piechart">
       <Chart
       chartType="PieChart"
-      width="100%"
       height="256px"
+      
       data={data}
       options={options}
     />
