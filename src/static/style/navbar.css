@@ -207,4 +207,8 @@ a img {
     .logo{
         padding-left: 4rem;
     }
+    .navbar{
+        width: 64rem;
+        min-width: unset;
+      }
 }

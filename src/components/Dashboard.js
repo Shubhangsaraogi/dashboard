@@ -65,6 +65,8 @@ const Dashboard = (props) => {
       <div className={`div-2 ${showModal && 'dashboard-blur'}`}>
         <Navigation openmenu={props.openmenu} className="navigation-instance" />
         <div className="overlap">
+          <div className="frame-container">
+            
           <div className="frame">
             <div className="frame-2">
               <div className="overlap-group">
@@ -123,6 +125,8 @@ const Dashboard = (props) => {
               <div className="label-text-2">+2.5%</div>
             </div>
           </div>
+          </div>
+
           <Chart />
         </div>
         <div className="overlap-4">
@@ -167,10 +171,10 @@ const Dashboard = (props) => {
                 </div>
               </div>
             </div>
-            <MaskGroup
+            {/* <MaskGroup
               className="rounded-full mask-group-instance"
               maskGroup={userObject.picture}
-            />
+            /> */}
 
             <img className="vector-5" alt="Vector" src={bell_icon} />
           </div>

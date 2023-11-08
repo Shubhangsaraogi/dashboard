@@ -459,7 +459,7 @@
   }
 
   @media only screen and (max-width: 447px) {
-    .sign-in .overlap-3 {
+    /* .sign-in .overlap-3 {
       width: 90%;
       left: -37%;
       height: 61%;
@@ -475,7 +475,7 @@
     }
     .sign-in .overlap-3 {
       left: unset;
-    }
+    } */
     .sign-in .apple-sign-in {
       left: unset;
       top: 370px;
