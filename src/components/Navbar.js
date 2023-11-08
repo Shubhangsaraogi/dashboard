@@ -1,5 +1,6 @@
 "use client";
 
+import { googleLogout } from '@react-oauth/google';
 import logo from '../static/LOGO.png'
 import  '../static/style/navbar.css'
 
@@ -10,6 +11,7 @@ export default function Navbar(props) {
     localStorage.removeItem('token');
     localStorage.removeItem('user');
     props.setShowDashboard(false);
+    googleLogout();
     window.location.reload();
     // document.getElementById('loginDiv').hidden=false;
   }

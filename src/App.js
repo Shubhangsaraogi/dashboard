@@ -74,9 +74,11 @@ function App() {
       }
       {
         showDashboard &&
-        <><Navbar showMenu={showMenu} showDashboard={showDashboard} setShowDashboard={setShowDashboard} /></>
+        <><Navbar showMenu={showMenu} showDashboard={showDashboard} setShowDashboard={setShowDashboard} />
+        <Dashboard openmenu={openmenu} />
+        
+        </>
       }
-      <Dashboard openmenu={openmenu} />
     </div>
   );
 }
