@@ -365,7 +365,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 1.3rem;
     gap: 19px;
   }
   .google-btn{
@@ -420,7 +420,7 @@
   }
   @media only screen and (max-width: 800px) {
     .login-form{
-      margin: 0 10px;
+      margin: 0 8px;
     }
     .auth{
       flex-direction: column;
@@ -477,7 +477,7 @@
       width: 80%;
     }
     .sign-in .div {
-      width: 100%;
+      width: 92%;
     }
     .sign-in .overlap-group {
       width: 100%;
