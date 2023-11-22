@@ -90,7 +90,7 @@
   .sign-in .div {
     background-color: #ffffff;
     border-radius: 20px;
-    height: 348px;
+    /* height: 348px; */
     left: 0;
     position: absolute;
     top: 0;
@@ -348,8 +348,87 @@
     top: 288px;
     width: 177px;
   }
+
+  .form input{
+    background: #F5F5F5;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    color: #000000;
+    font-family: "Lato-Regular", Helvetica;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  .form {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 19px;
+  }
+  .google-btn{
+    font-size: 11px;
+  }
+  .form li{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 6px;
+  }
   
+  .form button{
+    border: none;
+    background: #4285f4;
+    border-radius: 10px;
+    position: relative;
+    padding: 12px;
+    color: white;
+    font-size: 16px ;
+  }
+  .login-form{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .logintoggle{
+    margin: 0px;
+  }
+  .auth{
+    display: flex;
+    position: absolute;
+    top: -50px;
+    gap: 1rem;
+  }
+  .apple-text{
+    font-size: 12px;
+  }
+  .apple-container{
+    display: flex;
+    flex-direction: row-reverse;
+    background: white;
+    border-radius: 15px;
+    width: 39vw;
+    max-width: 150px;
+    align-items: center;
+    padding: 3px;
+    justify-content: space-evenly;
+    font-weight: 500;
+    width: 180px;
+      max-width: unset;
+      height: 30px;
+  }
   @media only screen and (max-width: 800px) {
+    .auth{
+      flex-direction: column;
+      top: -80px;
+      gap: 10px;
+    }
+    .apple-container{
+      width: 180px;
+      max-width: unset;
+    }
     .responsive{
         position: relative;
         left: -100%;
