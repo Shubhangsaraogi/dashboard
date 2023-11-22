@@ -16,6 +16,7 @@ export const options = {
     1: { color: "#ee8484" },
     2: { color: "#98d89e" },
   },
+  backgroundColor:'transparent',
   is3D: false,
 };
 
