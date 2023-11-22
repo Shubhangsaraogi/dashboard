@@ -6,11 +6,9 @@ import discord from '../static/carbon_logo-discord.png'
 import linkedin from '../static/carbon_logo-linkedin.svg'
 import twitter from '../static/twitter.svg'
 import github from '../static/github.svg'
-import google from '../static/google-icon 1.svg'
 import apple from '../static/apple 1.svg'
-import { GoogleLogin, googleLogout, useGoogleLogin } from "@react-oauth/google";
+import { GoogleLogin } from "@react-oauth/google";
 import jwtDecode from "jwt-decode";
-import { createRenderer } from "react-dom/test-utils";
 
 const Login = (props) => {
   const [toggleSignup, setToggleSignup] = useState(false)
@@ -53,7 +51,7 @@ const Login = (props) => {
     e.preventDefault();
     setIsLoading(true)
     // addQuestion(question.title, question.description);
-    if (credential.password != credential.cpassword) {
+    if (credential.password !== credential.cpassword) {
       setIsLoading(false)
       alert("Password and confirm password don't match")
     }
@@ -108,18 +106,16 @@ const Login = (props) => {
   // log out function to log the user out of google and set the profile array to null
 
 
-  const [width, setWidth] = useState(window.innerWidth);
-  const getWidth = () => {
-    setWidth(window.innerWidth);
-  }
-  // console.log("width:"+width);
-  const size = width < 447 ? 'small' : 'medium';
+  // const [width, setWidth] = useState(window.innerWidth);
+ 
+  // // console.log("width:"+width);
+  // const size = width < 447 ? 'small' : 'medium';
   const [height, setHeight] = useState(0)
   const ref = useRef(null)
 
   useEffect(() => {
     setHeight(ref.current.clientHeight)
-  })
+  },[])
   return (
     <div className="sign-in">
       <div className="overlap-wrapper">
