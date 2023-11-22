@@ -420,6 +420,9 @@
       height: 30px;
   }
   @media only screen and (max-width: 800px) {
+    .login-form{
+      margin: 0 10px;
+    }
     .auth{
       flex-direction: column;
       top: -80px;

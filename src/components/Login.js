@@ -110,12 +110,14 @@ const Login = (props) => {
  
   // // console.log("width:"+width);
   // const size = width < 447 ? 'small' : 'medium';
+  
+  
   const [height, setHeight] = useState(0)
   const ref = useRef(null)
 
   useEffect(() => {
     setHeight(ref.current.clientHeight)
-  },[])
+  },[toggleSignup])
   return (
     <div className="sign-in">
       <div className="overlap-wrapper">
